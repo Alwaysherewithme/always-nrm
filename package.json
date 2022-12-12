@@ -1,0 +1,19 @@
+{
+  "name": "always-nrm",
+  "version": "1.0.0",
+  "description": "A counterfeit of NRM CLI tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "trail": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "always-nrm": "bin/index.js"
+  },
+  "keywords": ["nrm replica", "nrm", "node registry manager", "cli"],
+  "author": "alwaysherewithme@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
