@@ -72,7 +72,7 @@ if (argv.indexOf('-v') !== -1) {
         console.error(`exec error: ${error}`)
         return
       }
-      console.log(`Set registry '${res[0][key]}' successfully!`)
+      console.log(`Set registry '${key}' successfully!`)
     })
   } else {
     console.log(`The ${key} is not in the list.`)
