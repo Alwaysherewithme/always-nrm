@@ -77,5 +77,13 @@ if (argv.indexOf('-v') !== -1) {
   } else {
     console.log(`The ${key} is not in the list.`)
   }
+} else if (argv.indexOf('-h') !== -1) {
+  console.log(`
+    add: always-nrm add [key] [value] can add registry address to the list
+    del: always-nrm del [key] can delete key of the list
+    ls: always-nrm ls can show the list
+    use: always-nrm use [key] can use the specific registry in the list
+    -v: always-nrm -v can show version
+  `)
 }
 
