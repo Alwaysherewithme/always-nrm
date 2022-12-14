@@ -1,6 +1,6 @@
 {
   "name": "always-nrm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A counterfeit of NRM CLI tool",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,12 @@
   "bin": {
     "always-nrm": "bin/index.js"
   },
-  "keywords": ["nrm replica", "nrm", "node registry manager", "cli"],
+  "keywords": [
+    "nrm replica",
+    "nrm",
+    "node registry manager",
+    "cli"
+  ],
   "author": "alwaysherewithme@gmail.com",
   "license": "ISC",
   "devDependencies": {
